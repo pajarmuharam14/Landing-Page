@@ -1,0 +1,49 @@
+/* UNIVERSAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* START HEADER STYLE */
+.header-container {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 20px;
+  margin: 10px;
+}
+
+nav {
+  margin: 23px;
+  padding: 5px 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav ul li a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+/* END HEADER STYLE */
