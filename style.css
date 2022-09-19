@@ -117,4 +117,28 @@ nav ul li a:hover {
   font-size: 18px;
   padding: 15px;
 }
+
+/* PRODUCT */
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.title h3 {
+  text-align: center;
+  margin: 45px 0;
+  font-size: 24px;
+}
+.product-container img {
+  width: 300px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+figcaption {
+  text-align: center;
+}
 /* END MAIN CONTENT STYLES */
