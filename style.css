@@ -16,6 +16,7 @@ body {
   height: 70px;
   display: flex;
   justify-content: space-around;
+  position: fixed;
 }
 
 .logo {
@@ -92,3 +93,28 @@ nav ul li a:hover {
   margin: 90px 0;
 }
 /* END HERO STYLE */
+
+/* START MAIN CONTENT STYLES */
+
+/* ABOUT */
+#about {
+  background-color: #e5e7eb;
+  height: 350px;
+}
+.text-about {
+  margin: auto;
+  width: 60%;
+  padding: 45px;
+}
+
+.text-about h3 {
+  text-align: center;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.text-about p {
+  font-size: 18px;
+  padding: 15px;
+}
+/* END MAIN CONTENT STYLES */
