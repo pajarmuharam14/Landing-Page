@@ -35,7 +35,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 nav ul li a {
@@ -125,6 +125,7 @@ nav ul li a:hover {
   margin: 40px 0;
   width: 100%;
   flex-wrap: wrap;
+  height: 400px;
 }
 
 .title h3 {
@@ -135,10 +136,24 @@ nav ul li a:hover {
 .product-container img {
   width: 300px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 figcaption {
   text-align: center;
 }
 /* END MAIN CONTENT STYLES */
+
+/* FOOOTER */
+footer {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 40px;
+}
+
+footer p {
+  color: #e5e7eb;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
